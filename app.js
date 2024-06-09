@@ -17,7 +17,7 @@ const passport = require("passport");
 const LocalStrategy = require("passport-local");
 const User = require("./models/user.js");
 const session = require("express-session");
-const MongoStore = require("connect-mongo");
+const MongoDBStore = require("connect-mongo");
 const flash = require("connect-flash");
 
 const listingRouter = require("./routes/listing.js");
@@ -50,7 +50,8 @@ app.use(methodOverride("_method"));
 app.engine("ejs", ejsMate);
 app.use(express.static(path.join(__dirname, "/public")));
 
-const store = MongoStore.create({
+
+const store = MongoDBStore.create({
     mongoUrl: dbUrl, 
     crypto : {
         secret: process.env.SECRET,
