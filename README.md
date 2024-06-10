@@ -1,9 +1,7 @@
 
 # Project-Wanderlust
 
- This project was created from local system
- It's a Full Stack Project based on MERN Development.  This project buliding idea is to list the hotels of different cities globally so that it can easily accessible to    
- your vacation place.
+Wanderlust is a travel inspiration and planning website designed to help users discover new destinations, plan trips, and share their travel experiences. Whether you're an avid traveler or planning your first adventure, Wanderlust provides the tools and resources to make your journey unforgettable.
  
 #  Frontend:
  HTML5 / CSS3 / JAVA SCRIPT
